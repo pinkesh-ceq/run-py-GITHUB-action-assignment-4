@@ -28,3 +28,4 @@ jobs:
         run: |
           cd scripts
           python $SCRIPT_NAME $NUMBER
+          
