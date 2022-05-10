@@ -2,8 +2,8 @@ name: Run Python script
 on: 
   push:
     branches:
-        - main
-        - 'main/**'   
+        - master
+        - 'master/**'   
   #   # paths:
   #   #   - '**.txt'
   # pull_request:
