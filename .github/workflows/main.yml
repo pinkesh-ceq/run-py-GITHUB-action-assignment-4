@@ -3,7 +3,7 @@ on:
   push:
     branches:
         - master
-        - 'master/**'   
+        # - 'master/**'   
   #   # paths:
   #   #   - '**.txt'
   # pull_request:
@@ -12,7 +12,7 @@ on:
   #     - 'main/**'
 
 env:
-  SCRIPT_NAME: longets_cons_num.py
+  SCRIPT_NAME: longest_cons_num.py
   NUMBER: 00000222211111155577
 
 jobs:
