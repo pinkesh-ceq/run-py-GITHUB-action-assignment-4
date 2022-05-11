@@ -6,9 +6,7 @@ on:
         description: 'Enter number/str to find longest consecutive num/str'     
         required: true
         default: 11222233 
-        type: choice
-        options:
-        - info
+        type: input
 
 env:
   SCRIPT_NAME: longest_cons_num.py
